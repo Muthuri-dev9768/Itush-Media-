@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Timothy Muthuri">
+    <meta name="Description" content="Contact Information for Itush Media And Technologies">
+    <title>Contact Us-Itush Media And Tech</title>
+    <link rel="Stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_h1">Itush Media And Tech</h1>
+    
+    <nav class="header_nav">
+        <ul class="header_ul">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+           
+            <li>
+                <a href="services.html">Services</a>
+
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+           
+        </ul>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="facebook_1744012544586_7314918791810012149.jpg" alt="We Love Our Media!"  width="1000" height="667">
+            <figcaption class="offscreen">Itush Media And Technologies</figcaption>
+        </figure>
+    </section>
+    
+   
+    <main class="main">
+        <article class="main_article">
+            <h2>Our Location</h2>
+            <address>
+                P.O BOX 202-60600 MAUA <br>
+                 MERU COUNTY,
+                 <br><br>
+                 Phone: <a href="tel:+254712345678">0702335171</a> <br>
+                 Phone: <a href="tel:+254712345678">0735447157</a>
+            </address>
+        </article>
+        <hr>
+        <article class="main_article contact">
+        <h2 class="contact_h2">Our Contact Form</h2>
+        <form  action="https://api.web3forms.com/submit" method="POST" class="contact_form">
+            <input type="hidden" name="access_key" value="83aaa0e5-f50a-4de7-b855-1a013911bee1">
+
+            <fieldset class="contact_fieldset">
+                <legend class="offscreen">Send Us A Message</legend>
+                <p class="contact_p">
+                    <label class="contact_label" for="name">Name:</label>
+                    <input class="contact_input" type="text" name="name" id="name"placeholder="your name" required>
+                </p>
+                <p>
+                    <label class="contact_label" for="email">Email:</label>
+                    <input class="contact_input" type="email" name="email" id="email" placeholder="your email" required>
+                    <p class="contact_p">
+                        <label class="contact_label" for="message">Your message</label>
+                        <br>
+                        <textarea class="contact_textarea" name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                    </p>
+                </p>
+            </fieldset>
+            <button class="contact_button" type="submit">Send</button>
+            <button class="contact_button" type="reset">Reset</button>
+        </form>
+    </article>
+    
+    </main>
+    
+    <footer class="footer">
+        <p>
+            <span class="nowrap">&copy; <time id="year"></time> </span>
+            <span class="nowrap">Itush Media And Technologies</span>
+        </p>
+    </footer>
+
+    
+</body>
+</html>
