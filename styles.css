@@ -91,6 +91,7 @@ html{
     font-family: var(--FF);
     background-color: var(--BGCOLOR);
     background-image: var(--BGIMAGE);
+    overflow-x: hiddden;
 }
 body{
     background-color: var(--BODY-BGCOLOR);
