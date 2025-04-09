@@ -17,6 +17,13 @@ img{
 input, button, textarea{
     font: inherit;
 }
+.edit {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 /*||VARIABLES*/
 :root{
